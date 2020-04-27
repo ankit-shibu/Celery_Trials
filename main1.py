@@ -1,2 +1,3 @@
 from task1 import add
-add.delay(4, 4)
+for i in range(4):
+    add.delay(i, i)
